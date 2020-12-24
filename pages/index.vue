@@ -56,11 +56,22 @@ export default {
       return `url(${this.images[this.currentIndex]})`;
     },
   },
+  transition: "home",
 };
 </script>
 
 <style scoped>
 .hero {
   height: calc(100vh - 70px);
+}
+.home-enter-active,
+.home-leave-active {
+  transition: opacity 0.5s;
+  transform: translateX(-10);
+}
+.home-enter,
+.home-leave-active {
+  opacity: 0;
+  transform: translateX(-10);
 }
 </style>
