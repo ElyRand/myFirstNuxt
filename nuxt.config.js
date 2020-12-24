@@ -57,5 +57,6 @@ export default {
      */
     extend(config, ctx) {}
   },
-  buildModules: ["@nuxtjs/tailwindcss"]
+  buildModules: ["@nuxtjs/tailwindcss"],
+  target: "static"
 };
