@@ -1,0 +1,2 @@
+# myFirstNuxt
+Created with CodeSandbox
