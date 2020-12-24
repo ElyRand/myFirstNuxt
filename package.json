@@ -1,0 +1,26 @@
+{
+  "name": "mynuxt",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.2",
+    "nuxt": "^2.12.2",
+    "reqlim": "^0.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "keywords": []
+}
