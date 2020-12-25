@@ -14,7 +14,8 @@
   "dependencies": {
     "@nuxt/http": "^0.6.2",
     "nuxt": "^2.12.2",
-    "reqlim": "^0.0.0"
+    "reqlim": "^0.0.0",
+    "slugify": "1.4.6"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2",
