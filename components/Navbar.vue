@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-black">
-    <div class="container mx-auto flex items-center h-full px-2">
+    <div class="container flex items-center h-full">
       <NuxtLink to="/" class="text-white">Logo </NuxtLink>
       <div class="ml-auto space-x-2">
         <NuxtLink to="/" class="text-white">Home </NuxtLink>

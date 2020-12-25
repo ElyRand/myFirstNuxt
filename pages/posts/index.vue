@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="mt-3" :key="index" v-for="(post, index) in posts">
       <NuxtLink :to="`posts/${post.slug}`">
         <h1 class="text-xl font-semibold">{{ post.slug }}</h1>
